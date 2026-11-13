@@ -1,0 +1,3 @@
+# Única dependencia externa: se usa SOLO para la línea base AES-GCM del benchmark.
+# La implementación de Ascon va vendorizada en vendor/ascon.py (no requiere instalación).
+cryptography>=42,<100
